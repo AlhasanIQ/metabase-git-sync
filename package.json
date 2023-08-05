@@ -1,0 +1,16 @@
+{
+  "name": "meta-git",
+  "module": "server.js",
+  "devDependencies": {
+    "bun-types": "latest",
+    "standard": "^17.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "globby": "^13.2.2",
+    "simple-git": "^3.19.1"
+  }
+}
