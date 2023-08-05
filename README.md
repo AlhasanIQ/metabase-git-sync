@@ -1,4 +1,4 @@
-# meta-git
+# metabase-git-sync
 
 A script to build metabase collections and questions into filesystem hierarchy (folders & files), and automate git operations to sync metabase into a git based repo using the metabase api.
 

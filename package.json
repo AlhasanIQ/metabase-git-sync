@@ -1,5 +1,5 @@
 {
-  "name": "meta-git",
+  "name": "metabase-git-sync",
   "module": "server.js",
   "devDependencies": {
     "bun-types": "latest",
