@@ -362,7 +362,9 @@ if (shouldArchive(archiveFileName)) {
     .then(() => console.log('Archive created: ./' + archiveFileName))
     .catch((reason) => console.error('Could not git archive.', reason))
 }
+
+// TODO safeguard version untested warning.
+
 // TODO git push
 // TODO dockerize to fit within cicd
-// TODO safeguard version untested warning.
 // TODO split commit to multi commits based on file with author info, use cardPathMap
